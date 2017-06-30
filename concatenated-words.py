@@ -126,6 +126,8 @@ class Tree:
                         return words
                     else:
                         words.append(word)
+        if len(words) > 0:
+            return words
         return None
 
     def total_concatenated_words(self):
